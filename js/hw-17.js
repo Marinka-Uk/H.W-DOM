@@ -46,10 +46,10 @@
 
 //№4
 
-const list = document.getElementById('myList');
-const firstListItem = list.firstElementChild;
-const button = document.getElementById('changeListItemButton');
+// const list = document.getElementById('myList');
+// const firstListItem = list.firstElementChild;
+// const button = document.getElementById('changeListItemButton');
 
-button.addEventListener('click', function() {
-    firstListItem.textContent = 'Новий текст для першого елемента';
-});
+// button.addEventListener('click', function() {
+//     firstListItem.textContent = 'Новий текст для першого елемента';
+// });
