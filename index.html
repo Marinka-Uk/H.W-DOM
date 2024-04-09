@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
+    <style>
+        #validation-input {
+border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+border-color: #4caf50;
+}
+
+#validation-input.invalid {
+border-color: #f44336;
+}
+    </style>
 </head>
 <body>
    
@@ -14,10 +27,10 @@
 
 
 
-    <!-- №2 -->
-    <!-- <h1>Change photo</h1>
+    <!-- №2
+    <h1>Change photo</h1>
     <img width="120px" id="mainImage" src="./js/кіт.avif" alt="Початкове зображення">
-    <button onclick = "changeImage()">Змінити зображення</button> -->
+    <button id="changeButton">Змінити зображення</button> -->
 
 <!-- 
 
@@ -43,6 +56,63 @@
 
 
 
-    <script src="./js/hw-17.js" type="module"></script>
+
+<!-- №1 -->
+<!-- <h2>Завдання 1</h2>
+
+<form>
+     <p>Choose a color:</p>
+     <label>
+     <input type="radio" name="color" value="red" checked />
+     Red
+     </label>
+     <label>
+     <input type="radio" name="color" value="white" />
+     White
+     </label>
+     <label>
+     <input type="radio" name="color" value="green" />
+    Green
+     </label>
+     </form> -->
+
+
+
+
+
+<!-- №2 -->
+
+<!-- <h2>Завдання 2</h2>
+
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" /> -->
+     <!-- <h1>Привіт, <span id="name-output">незнайомець</span>!</h1> -->
+     
+     
+
+
+
+<!-- №3 -->
+<!-- <h2>Завдання 3</h2>
+<input
+ type="text"
+ id="validation-input"
+ data-length="6"
+ placeholder="Введи 6 символів"/> -->
+
+
+
+<!-- №4 -->
+<!-- <h2>Завдання 4</h2>
+ <input id="font-size-control" type="range" />
+<br />
+<span id="text">Абракадабра!</span> -->
+
+
+
+
+
+ 
+    <!-- <script src="./js/hw-17.js" type="module"></script> -->
+    <script src="./js/hw-19.js" type="module"></script>
 </body>
 </html>

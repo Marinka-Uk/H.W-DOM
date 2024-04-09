@@ -17,12 +17,8 @@
 // const image = document.getElementById('mainImage');
 // const changeButton = document.getElementById('changeButton');
 // changeButton.addEventListener('click', function() {
-//     image.src = '/Users/marinaukrainec/Documents/H.W-DOM/js/flower.jpeg'
+//     image.src = "./js/flower.jpeg"
 // })
-
-//я не можу вставити ніяк тут посилання, 
-//у мене вроді все получилось просто воно не замінює 
-//на іншу картинку через те, що я не можу розібратись з src 
 
 
 
